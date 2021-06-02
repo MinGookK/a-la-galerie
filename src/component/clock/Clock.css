@@ -1,0 +1,39 @@
+.Gallery__Clock {
+  background-color: rgb(206, 0, 0);
+  width: 100vw;
+  height: 20%;
+
+  display: flex;
+  flex: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Gallery__clock__card {
+  display: flex;
+  flex: row;
+  justify-content: center;
+  align-items: center;
+
+  /* border: 1px solid #fff; */
+  padding: 15px 20px;
+  /* border-radius: 5px; */
+}
+
+.Gallery__Clock__divider {
+  color: #fff;
+  font-size: 4rem;
+}
+
+.Gallery__clock__digit {
+  background-color: rgb(201, 135, 135);
+  color: #fff;
+  font-size: 5rem;
+  border: 2px dashed rgb(255, 187, 187);
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.Gallery__clock__digit:last-child {
+  margin-left: 10px;
+}

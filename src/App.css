@@ -1,0 +1,9 @@
+.App {
+  /* width: 100vw; */
+  height: 100vh;
+}
+
+.tint {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}

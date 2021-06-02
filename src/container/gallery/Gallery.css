@@ -1,0 +1,28 @@
+.Gallery {
+  position: relative;
+  
+  height: 84vh;
+
+  background-color: rgb(143, 0, 0);
+
+  overflow-y: hidden;
+
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+@media only screen and (max-width: 1200px) {
+  .Gallery {
+    height: auto;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }  
+}

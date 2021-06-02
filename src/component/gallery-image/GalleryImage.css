@@ -1,0 +1,28 @@
+.Gallery__image-frame {
+  position: relative;
+
+  max-width: 100vw;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Gallery__image {
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 45px;
+
+  height: 50vh;
+}
+
+@media only screen and (max-width: 1200px) {
+  .Gallery__image-frame {
+    max-width: 90vw;
+  }
+
+  .Gallery__image {
+    width: 90vw;
+  }
+}

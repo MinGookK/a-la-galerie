@@ -1,0 +1,17 @@
+.Gallery__red-carpet {
+  position: absolute;
+  background-image: url("../../rsrc/img/red-carpet.png");
+  background-repeat: no-repeat;
+
+  width: 737px;
+  height: 340px;
+
+  left: 3%;
+  top: 93.5%;
+}
+
+@media only screen and (max-width: 1300px) {
+  .Gallery__red-carpet {
+    visibility: hidden;
+  }
+}
